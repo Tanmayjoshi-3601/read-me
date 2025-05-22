@@ -8,6 +8,7 @@ def scan_repo(repo_path):
         "classes":[],
         "docstrings":[],
         "requirements":[],
+        "scripts":[],
         "readme_exists":False,
         "license_exists":False,
     }
@@ -34,8 +35,8 @@ def scan_repo(repo_path):
                                     summary["docstrings"].append({"type":"functionn","name":n.name, "doc":doc})
                         
                         module_doc = ast.get_docstring(node)
-                        if module_doc:
-                            summary["docstrings"].append("type":"module","name":filename, "doc":module_doc)
+                        if module_doc:    
+                            summary["docstrings"].append({"type":"module","name":filename, "doc":module_doc})
 
                     
                     except Exception as e:
