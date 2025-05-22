@@ -31,7 +31,7 @@ def build_prompt(summary):
 
 def generate_readme(summary):
     prompt = build_prompt(summary)
-    openai_api_key = "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"
+    # openai_api_key = "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"
 
 
 
