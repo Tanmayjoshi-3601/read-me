@@ -78,6 +78,8 @@ Lots of tools call themselves agentic these days for hype.
 Because life is too short for writing repetitive docs.
 
 ---
+![PyPI downloads](https://img.shields.io/pypi/dm/readme-agent)
+
 
 ## 📣 License
 
