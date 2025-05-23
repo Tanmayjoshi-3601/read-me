@@ -5,7 +5,8 @@
 
 ---
 
-![readme-agent demo graphic](./YOUR_IMAGE_HERE.png) <!-- Replace with your generated image or a GIF! -->
+![image](https://github.com/user-attachments/assets/b6b66569-9de7-4716-8e36-52be65720c5c)
+
 
 ---
 
