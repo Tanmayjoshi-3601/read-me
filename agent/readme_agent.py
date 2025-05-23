@@ -29,7 +29,7 @@ def build_prompt(summary):
     prompt += "\nIf any important information is missing, mention it as a TODO or placeholder in the README.\n"
     return prompt
 
-def generate_readme(summary):
+def generate_readme(summary, openai_api_key):
     prompt = build_prompt(summary)
     # openai_api_key = "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"
 
@@ -47,6 +47,6 @@ def generate_readme(summary):
     )
     
 
-
+    
     readme_content = response.choices[0].message.content
     return readme_content
